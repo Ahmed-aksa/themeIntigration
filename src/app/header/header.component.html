@@ -1,45 +1,14 @@
-<div id="header" class="header-transparent" data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': false, 'stickyChangeLogo': false, 'stickyStartAt': 1, 'stickyHeaderContainerHeight': 70}">
-    <div class="header-body header-border-bottom overflow-visible">
-      <div class="header-container container">
-        <div class="header-row py-3">
-          <div class="header-column flex-row w-auto">
-            <div class="header-logo">
-              <a href="demo-product-landing.html">
-                <img src="assets/images/product-landing-logo.png" alt="Milanoo" width="123" height="32">
-              </a>
-            </div>
-          </div>
-          <div class="header-column w-100 ps-lg-5">
-            <div class="header-nav w-100 p-0">
-              <div class="header-nav header-nav-line header-nav-bottom-line header-nav-bottom-line-effect-1 justify-content-start w-100">
-                <div class="header-nav-main header-nav-main-arrows header-nav-main-effect-2 header-nav-main-sub-effect-1 w-100">
-                  <nav class="collapse w-100">
-                    <ul class="nav nav-pills flex-column flex-lg-row w-100" id="mainNav">
-                      <li class="dropdown">
-                        <a class="dropdown-item active" data-hash data-hash-offset="0" data-hash-offset-lg="70" href="#intro">Intro</a>
-                      </li>
-                      <li class="dropdown">
-                        <a class="dropdown-item" data-hash data-hash-offset="0" data-hash-offset-lg="70" href="#features">Features</a>
-                      </li>
-                      <li class="dropdown">
-                        <a class="dropdown-item" data-hash data-hash-offset="0" data-hash-offset-lg="70" href="#tour">Tour</a>
-                      </li>
-                      <li class="dropdown">
-                        <a class="dropdown-item" data-hash data-hash-offset="0" data-hash-offset-lg="70" href="#specifications">Specifications</a>
-                      </li>
-                      <li class="dropdown">
-                        <a class="dropdown-item" data-hash data-hash-offset="0" data-hash-offset-lg="90" href="#reviews">Reviews</a>
-                      </li>
-<!--                      <li class="dropdown">-->
-<!--                        <a class="dropdown-item" href="demo-product-landing-checkout.html">Buy Now</a>-->
-<!--                      </li>-->
-                    </ul>
-                  </nav>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+<mat-toolbar style="display: flex;flex-direction: row;justify-content: space-between">
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span>My App</span>
+  <div>
+    <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+      <mat-icon>favorite</mat-icon>
+    </button>
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+      <mat-icon>share</mat-icon>
+    </button>
   </div>
+</mat-toolbar>
